@@ -4,11 +4,11 @@ function testFunc() {
   return "hi"
 }
 function superbowlWin(arr){
-  const newarr=arr.find(a.result==="W");
-  if(newarr==="W"){
+  const newarr=arr.find(arr.year==="W");
+  if(newarr===true){
     return newarr.year;
   }
   else{
-    return newarr;
+    return undefined;
   }
 }
