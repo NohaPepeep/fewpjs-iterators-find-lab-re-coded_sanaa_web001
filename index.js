@@ -7,7 +7,7 @@ function superbowlWin(arr){
   const newarr=arr.find(s => s.result === "W");
   console.log(newarr);
   if(newarr===true){
-    return newarr.year;
+    return Object.year;
   }
   else{
     return undefined;
